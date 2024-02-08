@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: linear-gradient(45deg,#c8cbe1, #d6cfd4, #f8f009);
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .input-section input[type="number"],
+  .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .input-section button {
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .expenses-list {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: rgb(150, 222, 38);
+    color: rgb(12, 1, 1);
+  }
+  tfoot td {
+    font-weight: bold;
+  }
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: rgb(47, 9, 238);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    position: fixed; /* Fix the position of the footer */
+    bottom: 0; /* Align the bottom of the footer with the bottom of the viewport */
+    left: 0; /* Align the left edge of the footer with the left edge of the viewport */
+    width: 100%; /* Ensure the footer spans the entire width of the viewport */
+    background-color: #333;
+    color: #fff;
+    padding: 2px 0;
+    text-align: center;
+}
